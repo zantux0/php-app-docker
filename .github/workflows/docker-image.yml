@@ -2,7 +2,7 @@ name: BuildApache2
 
 on:
   push:
-    branches: [ dev-v2 ]
+    branches: [ dev-v3 ]
 
 jobs:
 
@@ -25,4 +25,4 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         push: true
-        tags: zantux0/php-app-docker:2.0-dev
+        tags: zantux0/php-app-docker:3.0-dev
