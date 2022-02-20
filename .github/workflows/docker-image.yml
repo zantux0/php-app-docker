@@ -2,7 +2,7 @@ name: BuildApache2
 
 on:
   push:
-    branches: [ main ]
+    branches: [ dev-v2 ]
 
 jobs:
 
