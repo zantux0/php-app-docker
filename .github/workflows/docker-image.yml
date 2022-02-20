@@ -25,4 +25,4 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         push: true
-        tags: zantux0/php-app-docker:1.0
+        tags: zantux0/php-app-docker:2.0-dev
